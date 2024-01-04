@@ -1,0 +1,168 @@
+*{
+    height: 550px;
+    width: 800px;
+    /* background-color: aqua; */
+    margin: 0px;
+    padding: 0px;
+}
+#a{
+    height: 100px;
+    width: 800px;
+    background-color: red;
+    /* border: 1px solid black; */
+}
+#b{
+    height: 450px;
+    width: 100px;
+    background-color: black;
+    float: left;
+    /* border: 1px solid white; */
+}
+#c{
+    height: 450px;
+    width: 700px;
+    background-color: yellow;
+    float: right;
+}
+.a{
+    height: 300px;
+    width: 100px;
+    background-color: rgb(79, 79, 160);
+    float: left;
+}
+.b{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    float: left;
+}
+.d{
+    height: 100px;
+    width: 600px;
+    background-color: blue;
+    float: left;
+}
+.c{
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+    float: right;
+}
+.f{
+    height: 50px;
+    width: 100px;
+    background-color: black;
+}
+.e{
+    height: 50px;
+    width: 50px;
+    float: left;
+    background-color: red;
+}
+.g{
+    height: 50px;
+    width: 50px;
+    float: right;
+    background-color: palevioletred;
+}
+.h{
+    height: 150px;
+    width: 50px;
+    float: left;
+    background-color: orange;
+}
+.i{
+    height: 150px;
+    width: 50px;
+    float: right;
+    background-color: orangered;
+}
+.j{
+    height: 100px;
+    width: 700px;
+    background-color: lavender;
+}
+#k{
+    height: 350px;
+    width: 200px;
+    background-color: black;
+    float: left;
+}
+#l{
+    height: 350px;
+    width: 500px;
+    background-color: aqua;
+    float: right;
+}
+.m{
+    height: 200px;
+    width: 100px;
+    background-color: white;
+    float: left;
+}
+.n{
+    height: 200px;
+    width: 50px;
+    background-color: oldlace;
+    float: left;
+}
+.o{
+    height: 200px;
+    width: 50px;
+    background-color: olive;
+    float: right;
+}
+.p{
+    height: 150px;
+    width: 100px;
+    background-color: orchid;
+    float: left;
+}
+.q{
+    height: 350px;
+    width: 100px;
+    background-color: yellow;
+    float: left;
+}
+.r{
+    height: 250px;
+    width: 200px;
+    background-color: black;
+    float: left;
+}
+.s{
+    height: 250px;
+    width: 100px;
+    background-color: yellow;
+    float: left;
+}
+.t{
+    height: 250px;
+    width: 200px;
+    background-color: black;
+    float: right;
+}
+.u{
+    height: 100px;
+    width: 500px;
+    background-color: blue;
+    float: left;
+}
+.v{
+    height: 100px;
+    width: 200px;
+    background-color: red;
+    float: left;
+}
+.w{
+    height: 150px;
+    width: 100px;
+    float: left;
+    background-color: orange;
+}
+.x{
+    height: 150px;
+    width: 100px;
+    float: right;
+    background-color: blue;
+}

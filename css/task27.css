@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+.q{
+    height: 700px;
+    width: 1000px;
+    background-color: lavender;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.a{
+    height: 650px;
+    width: 300px;
+    float: left;
+    background-color: rgb(26, 94, 189);
+    padding: 20px;
+    position: relative;
+}
+.b{
+    height: 700px;
+    width: 700px;
+    background-color: aliceblue;
+    float: left;
+    background-color: rgb(237, 209, 52);
+}
+.a1{
+    height: 250px;
+    width: 200px;
+    border: 10px solid white;
+    /* padding: 5px; */
+    background-image: url("img/brunette-business-woman-with-wavy-long-hair-blue-eyes-stands-holding-notebook-hands.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* margin-left: 60px; */
+    position: absolute;
+    left: 80px;
+}
+.ab1{
+    height: 150px;
+    width: 850px;
+    background-color: black;
+    position: absolute;
+    top: 90px;
+    left: 299px;
+}
+.c{
+    position: relative;
+    top: 300px;
+    left: 10px;
+    /* background-color: aliceblue; */
+    text-align: left;
+}
+i{
+    margin-right: 10px;
+    background-color: yellow;
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+    padding: 2px;
+    align-items: center;
+    /* text-align: right; */
+}
+p{
+    display: inline;
+    color: white;
+}
+h3{
+    text-transform: uppercase;
+    color: white;
+    position: relative;
+    top: 315px;
+    left: 10px;
+}
+hr{
+    color: yellow;
+    border: 2px solid yellow;
+    position: relative;
+    top: 320px;
+    left: 15px;
+}
+p.d1{
+    position: relative;
+    top: 325px;
+    left: 10px;
+    text-transform: capitalize;
+}
+.e{
+    position: relative;
+    top: 20px;
+    left: 0px;
+    /* background-color: aliceblue; */
+    text-align: left;
+}
+p.e1{
+    position: relative;
+    top: 320px;
+    left: 10px;
+    text-transform: capitalize;
+}
+h2{
+    color: aliceblue;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 50px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+.z1{
+    text-transform: uppercase;
+    color: black;
+    position: relative;
+    top: 300px;
+    left: 10px;
+}
+hr.z2{
+    color: yellow;
+    border: 2px solid white;
+    position: relative;
+    top: 310px;
+    left: 15px;
+}

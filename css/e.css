@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+body{
+    background-color: lavender;
+    padding: 5px;
+}
+.a{
+    height: 20px;
+    width: auto;
+    padding: 10px;
+    padding-left: 20%;
+    /* margin: 20px; */
+    background-color: rgb(172, 172, 246);
+}
+select{
+    height: 30px;
+    background-color: red;
+}
+button{
+    color: white;
+    padding: 3px;
+}
+button[type='CSS']{
+    background-color: skyblue;
+}
+button[type='HTML']{
+    background-color: skyblue;
+}
+button[type='Download']{
+    background-color: skyblue;
+}
+button[type='Preview']{
+    margin-left: 300px;
+    background-color: lightgreen;
+}
+.b{
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    border: 2px solid gray;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 15px;
+    float: left;
+}
+.c{
+    border: 2px solid blue;
+    width: 110px;
+    height: 110px;
+    margin-top: 10px;
+    margin-left: 110px;
+    border-radius: 60px;
+}
+img{
+    height: 110px;
+    width: 110px;
+    /* padding: 10px; */
+    border-radius: 100px;
+}
+.d{
+    color: grey;
+    text-align: center;
+}
+button[type='follow']{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    background-color: blue;
+}
+button[type='Message']{
+    color: blue;
+    background-color: white;
+}
+.e{
+    font-family: 'Courier New', Courier, monospace;
+    display: inline;
+}
+.f{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-content: right;
+    display: inline;
+    margin-left: 20px;
+    text-align: right;
+    float: right;
+}
+/* .g{
+    height: 400px;
+    width: 800px;
+    background-color: white;
+    border: 2px solid gray;
+    margin-top: 10px;
+    margin-right: 10px;
+    float: right;
+} */
+.h{
+    height: 300px;
+    width: 810px;
+    background-color: white;
+    border: 2px solid gray;
+    margin-top: 10px;
+    margin-left: 10px;
+    /* margin-right: 10px; */
+    float: left;
+    padding: 10px;
+}
+/* .i{
+    height: 400px;
+    width: 800px;
+    background-color: white;
+    border: 2px solid gray;
+    margin-top: 10px;
+    margin-left: 10px;
+    /* margin-right: 10px; 
+    float: right;
+} */
+input[type]{
+    margin-bottom: 25px;
+    margin-left: 20px;
+    width: 500px;
+}
+/* .container {
+    width: 100%;
+    background-color: #ddd;
+}
+.skills {
+    text-align: right;
+    /* padding-top: 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding-bottom: 5px;
+    color: white;
+}  
+.Web{
+    width: 85%; background-color: blue;
+}
+.Website{
+    width: 65%; background-color: red;
+}
+.One{
+    width: 90%; background-color: green;
+}
+.Mobile {
+    width: 50%; background-color: yellow;
+}
+.API {
+    width: 60%; background-color: skyblue; 
+} */
+hr{
+    margin: 5px;
+}
+h2{
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    font-size: large;
+}
+progress{
+    width: 100%;
+}

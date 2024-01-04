@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+.a{
+    width: 900px;
+    height: 1000px;
+    background-color: aqua;
+}
+.b1{
+    width: 870px;
+    height: 200px;
+    background-color: blue;
+    padding: 15px;
+}
+.b2{
+    width: 900px;
+    height: 900px;
+    background-color: cadetblue;
+}
+.c{
+    height: 50px;
+    width: 500px;
+    border: 2px solid red;
+    margin: 50px;
+    background-color: blueviolet;
+}

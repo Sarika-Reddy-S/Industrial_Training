@@ -1,0 +1,38 @@
+.ext{                                       /*class applied many times*/
+    font-size: 20px;
+    color: blue;
+    background-color: aqua;
+    font-style: italic;
+    border: 2px solid black;
+}
+#main{                                      /*id # unique*/
+    font-size: 22px;
+    color: rebeccapurple;
+    background-color: lightblue;
+    font-style: bold;
+    border: 2px solid hotpink;
+}
+spam{                                       /*whole element tags ki apply avvudhi*/
+    color: blueviolet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+*{                                          /* *universal selector so page antha apply avuudhi hight priority*/
+    background-color: plum;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+/* oka attribute ki styles apply cheyydaniki use avutundhi*/
+input[type]{
+    color: red;
+}
+/*a[href]{
+    background-color: yellow;
+    color: red;
+}*/
+a:link{
+    color: aqua;
+}
+a:visited{
+    color: black;
+}

@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+.a{
+    height: 225px;
+    width: 1450px;
+    padding: 10px 40px 40px 40px;
+    background-color: rgb(255, 197, 197);
+}
+.b{
+    height: 452px;
+    width: 1532px;
+    background-color: skyblue;
+    background-attachment: fixed;
+}
+.c{
+    height: 400px;
+    width: 300px;
+    border: 1px solid red;
+    box-shadow: 5px 5px 5px gray;
+    margin-left: 20px;
+    position: relative;
+    top: 100px;
+    float: left;
+    background-color: aliceblue;
+}
+.d{
+    height: 400px;
+    width: 300px;
+    border: 1px solid red;
+    box-shadow: 5px 5px 5px gray;
+    margin-left: 20px;
+    position: relative;
+    top: 0px;
+    float: left;
+    background-color: aliceblue;
+}
+.c1{
+    background-color: orange;
+    height: 50px;
+    width: 50px;
+    margin-left: 100px;
+    padding: 25px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+i[class="fa-solid fa-shoe-prints fa-2x"]{
+    color: white;
+    padding: 10px;
+}
+i[class="fa-solid fa-certificate fa-2x"]{
+    color: white;
+    padding: 10px;
+}
+i[class="fa-solid fa-chalkboard-user fa-2x"]{
+    color: white;
+    padding: 5px;
+}
+i[class="fa-solid fa-list-check fa-2x"]{
+    color: white;
+    padding: 10px;
+}
+.c2{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px; 
+    font-family: 'Courier New', Courier, monospace;  
+    letter-spacing: 2px;
+}
+p{
+    text-align: center;
+    color: grey;
+    margin: 30px;
+}
+p.c3{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    text-decoration: 5px underline solid black;
+}

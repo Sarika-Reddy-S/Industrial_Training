@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styling</title>
+    <link rel="stylesheet" href="external.css">
+    <style>
+        .abc{
+            font-size: 25px;
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <center><h1>Styling types in CSS</h1></center><hr>
+    <h3>Inline cascading style</h3>
+    <p style="font-style: italic;color: white;background-color: black;width: 370px;">Style is a attribute used in css for any kind of css types</p>
+    <hr>
+    <h3>Internal css using class</h3>
+    <p class="abc">class is denoted by . in the prefix</p>
+    <hr>
+    <h3>External css using class</h3>
+    <p class="ext">Need to import the External file with href=name</p>
+    <hr>
+    <h3>External css using id selector</h3>
+    <div id="main">
+        <p>Id is unique. class can be used many times but id shouldnt used more than a time </p>
+        <p class="abc">Reusable</p>
+        <p class="ext">Reusable</p>
+    </div>
+    <hr>
+    <h3>External css using element(tags) selector</h3>
+    <spam>It is applied to all the div tags</spam>
+    <hr>
+    <h3>attribute selector styles</h3>
+    <a href="https://www.google.com/">click here</a><br>
+    <a href="https://www.google.com/">click here</a><br>
+    <a href="">click here</a><br>
+    <input type="text"><br>
+</body>
+</html>

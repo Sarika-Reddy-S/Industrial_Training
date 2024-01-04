@@ -1,0 +1,18 @@
+.a{
+    height: 50px;
+    display: block;
+    background-color: red;
+    padding: 30px;
+    margin-right: 30px;
+}
+li{
+    display: inline;
+    margin: 30px;
+}
+ol{
+    list-style-type: none;
+    color: black;
+}
+p{
+    text-indent: 10px;
+}

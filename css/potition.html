@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positions in CSS</title>
+    <style>
+        .a{
+            height: 200px;
+            width: 200px;
+            border: 2px solid black;
+            margin-right: 2px;
+            float: left;
+            position: relative; /*Ae place lo ithey align chesthamo adhe place lo vuntadhi top values ecchina change avvadhu content vachina move avvadhi*/
+            top: 10px;
+            left: 20px;
+        }
+        .b{
+            height: 200px;
+            width: 200px;
+            border: 2px solid red;
+            margin-right: 2px;
+            float: left;
+            position: fixed; /*Em chesina sare ah div annadhi move avvadhu even scroll chesinappudu kuda ante content meedha over display avvudhi */
+            left: 1000px;
+        }
+        .c{
+            height: 200px;
+            width: 200px;
+            border: 2px solid purple;
+            margin-right: 2px;
+            float: left;
+            position: absolute; /*absolute is used in the parent div ante oka main div lo align cheyyadaniki use chestam*/
+            top:10px;
+            left: 20px;
+        }
+        .d{
+            height: 200px;
+            width: 200px;
+            border: 2px solid blue;
+            float: left;
+            margin-left: 2px;
+            position: static;  
+        }
+        h5{
+            background-color: aqua;
+            height: 100px;
+            width: 100%;
+            position:sticky;  /*eg oka nav bar laaga oka certain value vachaka inka alane vuntadhi */
+            top: 0px;
+        }
+        .parent{
+            height: 300px;
+            width: 300px;
+            border: 2px double hotpink;
+            float: left;
+            position: relative;  /*Edhi oka parent div so relative ani use chestam edhi + child move anuthayi if oka parent div antuleka pothe body ae motham page kabatti body tag ni arent ga consider chesthundhi*/
+            top: 150px;
+
+        }
+    </style>
+</head>
+<body>
+    <h5>This is done by the sticky</h5>
+    <div class="a">hi</div>
+    <div class="b">hello</div>
+    <div>
+        <p>Aditya, the premier promoter of quality education in the coastal districts of Andhra Pradesh for the past two decades, leads various institutions ranging from K.G to P.G besides professional colleges like Engineering, Pharmacy and Nursing. Sri Nallamilli Seshareddy as a founder chairman, promoted the educational society in the name and style of Aditya Academy at Kakinada in the year 1984, with a vision and mission to create a platform for holistic growth and success to students at all levels.
+
+            Aditya has made its entry into the educational arena with a public school to meet the needs of primary and secondary education. In succession and with rapid strides, the academy established a number of Junior Colleges, Degree Colleges, PG Colleges, Engineering Colleges, Pharmacy Colleges, Nursing Colleges, Teacher Training Institutions.
+            
+            The silver-jubilee educational group with 50,000+ students in 50+ institutions with 5000+ staff across three districts in Andhra Pradesh has become the standard bearer for quality education. In every stream, Aditya has become a spring-board for success through its powered vision, constant innovation and professional excellence.
+            
+            Aditya, the premier promoter of quality education in the coastal districts of Andhra Pradesh for the past two decades, leads various institutions ranging from K.G to P.G besides professional colleges like Engineering, Pharmacy and Nursing. Sri Nallamilli Seshareddy as a founder chairman, promoted the educational society in the name and style of Aditya Academy at Kakinada in the year 1984, with a vision and mission to create a platform for holistic growth and success to students at all levels.
+
+Aditya has made its entry into the educational arena with a public school to meet the needs of primary and secondary education. In succession and with rapid strides, the academy established a number of Junior Colleges, Degree Colleges, PG Colleges, Engineering Colleges, Pharmacy Colleges, Nursing Colleges, Teacher Training Institutions.
+
+The silver-jubilee educational group with 50,000+ students in 50+ institutions with 5000+ staff across three districts in Andhra Pradesh has become the standard bearer for quality education. In every stream, Aditya has become a spring-board for success through its powered vision, constant innovation and professional excellence.
+
+Aditya, the premier promoter of quality education in the coastal districts of Andhra Pradesh for the past two decades, leads various institutions ranging from K.G to P.G besides professional colleges like Engineering, Pharmacy and Nursing. Sri Nallamilli Seshareddy as a founder chairman, promoted the educational society in the name and style of Aditya Academy at Kakinada in the year 1984, with a vision and mission to create a platform for holistic growth and success to students at all levels.
+
+Aditya has made its entry into the educational arena with a public school to meet the needs of primary and secondary education. In succession and with rapid strides, the academy established a number of Junior Colleges, Degree Colleges, PG Colleges, Engineering Colleges, Pharmacy Colleges, Nursing Colleges, Teacher Training Institutions.
+
+The silver-jubilee educational group with 50,000+ students in 50+ institutions with 5000+ staff across three districts in Andhra Pradesh has become the standard bearer for quality education. In every stream, Aditya has become a spring-board for success through its powered vision, constant innovation and professional excellence.
+
+Aditya, the premier promoter of quality education in the coastal districts of Andhra Pradesh for the past two decades, leads various institutions ranging from K.G to P.G besides professional colleges like Engineering, Pharmacy and Nursing. Sri Nallamilli Seshareddy as a founder chairman, promoted the educational society in the name and style of Aditya Academy at Kakinada in the year 1984, with a vision and mission to create a platform for holistic growth and success to students at all levels.
+
+Aditya has made its entry into the educational arena with a public school to meet the needs of primary and secondary education. In succession and with rapid strides, the academy established a number of Junior Colleges, Degree Colleges, PG Colleges, Engineering Colleges, Pharmacy Colleges, Nursing Colleges, Teacher Training Institutions.
+
+The silver-jubilee educational group with 50,000+ students in 50+ institutions with 5000+ staff across three districts in Andhra Pradesh has become the standard bearer for quality education. In every stream, Aditya has become a spring-board for success through its powered vision, constant innovation and professional excellence.
+
+Aditya, the premier promoter of quality education in the coastal districts of Andhra Pradesh for the past two decades, leads various institutions ranging from K.G to P.G besides professional colleges like Engineering, Pharmacy and Nursing. Sri Nallamilli Seshareddy as a founder chairman, promoted the educational society in the name and style of Aditya Academy at Kakinada in the year 1984, with a vision and mission to create a platform for holistic growth and success to students at all levels.
+
+Aditya has made its entry into the educational arena with a public school to meet the needs of primary and secondary education. In succession and with rapid strides, the academy established a number of Junior Colleges, Degree Colleges, PG Colleges, Engineering Colleges, Pharmacy Colleges, Nursing Colleges, Teacher Training Institutions.
+
+The silver-jubilee educational group with 50,000+ students in 50+ institutions with 5000+ staff across three districts in Andhra Pradesh has become the standard bearer for quality education. In every stream, Aditya has become a spring-board for success through its powered vision, constant innovation and professional excellence.
+
+Aditya, the premier promoter of quality education in the coastal districts of Andhra Pradesh for the past two decades, leads various institutions ranging from K.G to P.G besides professional colleges like Engineering, Pharmacy and Nursing. Sri Nallamilli Seshareddy as a founder chairman, promoted the educational society in the name and style of Aditya Academy at Kakinada in the year 1984, with a vision and mission to create a platform for holistic growth and success to students at all levels.
+
+Aditya has made its entry into the educational arena with a public school to meet the needs of primary and secondary education. In succession and with rapid strides, the academy established a number of Junior Colleges, Degree Colleges, PG Colleges, Engineering Colleges, Pharmacy Colleges, Nursing Colleges, Teacher Training Institutions.
+
+The silver-jubilee educational group with 50,000+ students in 50+ institutions with 5000+ staff across three districts in Andhra Pradesh has become the standard bearer for quality education. In every stream, Aditya has become a spring-board for success through its powered vision, constant innovation and professional excellence.
+
+Aditya, the premier promoter of quality education in the coastal districts of Andhra Pradesh for the past two decades, leads various institutions ranging from K.G to P.G besides professional colleges like Engineering, Pharmacy and Nursing. Sri Nallamilli Seshareddy as a founder chairman, promoted the educational society in the name and style of Aditya Academy at Kakinada in the year 1984, with a vision and mission to create a platform for holistic growth and success to students at all levels.
+
+Aditya has made its entry into the educational arena with a public school to meet the needs of primary and secondary education. In succession and with rapid strides, the academy established a number of Junior Colleges, Degree Colleges, PG Colleges, Engineering Colleges, Pharmacy Colleges, Nursing Colleges, Teacher Training Institutions.
+
+The silver-jubilee educational group with 50,000+ students in 50+ institutions with 5000+ staff across three districts in Andhra Pradesh has become the standard bearer for quality education. In every stream, Aditya has become a spring-board for success through its powered vision, constant innovation and professional excellence.
+
+</p>
+    </div>
+    <div class="parent">
+        <div class="c">how</div>
+    </div>
+    <div class="d">are</div>
+</body>
+</html>
