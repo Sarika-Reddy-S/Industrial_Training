@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.a{
+    height: 700px;
+    width: 1400px;
+    padding: 50px;
+    /* border: 1px solid black; */
+}
+.a1{
+    height: 600px;
+    width: 600px;
+    float: left;
+}
+.a2{
+    height: 600px;
+    width: 600px;
+    float: left;
+    padding: 40px;
+}
+h3{
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: capitalize;
+}
+p{
+    color: gray;
+    text-transform: capitalize;
+}
+.b1{
+    height: 400px;
+    width: 100%;
+    float: left;
+}
+.b2{
+    height: 200px;
+    width: 100%;
+    float: left;
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    text-transform: capitalize;
+}
+.c{
+    height: 70px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+input{
+    padding: 5px;
+    height: 50px;
+    width: 100%;
+    color: grey;
+    text-transform: capitalize;
+}
+.c1{
+    height: 70px;
+    width: 200px;
+    float: left;
+    margin-right: 30px;
+}
+.c2{
+    height: 70px;
+    width: 200px;
+    float: left;
+}
+select{
+    display: inline;
+    color: grey;
+    padding: 5px;
+    height: 50px;
+    width: 100px;
+}
+option{
+    display: inline;
+}
+input[type="text1"]{
+    padding: 5px;
+    height: 50px;
+    width: 400px;
+    color: grey;
+    text-transform: capitalize;
+    display: inline;
+    margin-top: 20px;
+}
+i{
+    color: gray;
+    display: inline;
+}
+.c12{
+    height: 20px;
+    width: 20px;
+    float: left;
+    display: inline;
+}
+.c13{
+    height: inherit;
+    width: 200px;
+    float: left;
+    display: inline;
+}
+.tag1{
+    height: 30px;
+
+}
+.button1{
+        border: none;
+        border-radius:5px;
+        color: white;
+        padding: 8px 100px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        background-color: blue;
+    }
+    .button2{
+        border: none;
+        border-radius:5px;
+        color: white;
+        padding: 8px 80px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        background-color: rgb(60, 60, 221);
+    }
+    .button3{
+        border: none;
+        border-radius:5px;
+        color: white;
+        padding: 8px 90px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        background-color: rgb(0, 200, 255);
+.button4{
+        border: none;
+        color: blue;
+        cursor: pointer;
+        background-color: white;
+    }
+    hr{
+        width: 180px;
+        float: left;
+    }
+    .e{
+        margin-top: 12px;
+        color: gray;
+    }

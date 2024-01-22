@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .a{
+            height: 200px;
+            width: 200px;
+            /* background-color: red; */
+            animation-name: ani;
+            animation-duration: 5s;
+            animation-iteration-count: 3;
+            animation-timing-function: linear;
+            animation-delay: 2s;
+            animation-direction: forwards;
+            animation-fill-mode: backwards;
+        }
+        /* .a:hover{
+            border-radius: 100px;
+            transition-delay: 2s;
+            transition-duration: 5s;
+            animation-name: ani;
+            animation-duration: 5s;
+        } */
+        @keyframes ani{
+            /* from{
+                background-color: white;
+            }
+            to{
+                background-color: yellow;
+            } */
+            0%{
+                background-color: rgb(248, 244, 236);
+                border-radius: 0%;
+                position: relative;
+                top: 0px;
+                left: 0px;
+            }
+            25%{
+                background-color: rgb(255, 155, 210);
+                border-radius: 25%;
+                position: relative;
+                top: 0px;
+                left: 400px;
+            }
+            50%{
+                background-color: rgb(214, 52, 132);
+                border-radius: 50%;
+                position: relative;
+                top: 200px;
+                left: 400px;
+            }
+            75%{
+                background-color: rgb(64, 43, 58);
+                border-radius: 75%;
+                position: relative;
+                top: 200px;
+                left: 0px;
+            }
+            100%{
+                background-color: rgb(95, 65, 86);
+                border-radius: 90%;
+                position: relative;
+                top: 0px;
+                left: 0px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="a"></div>
+</body>
+</html>

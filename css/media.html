@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: aqua;
+            height: 600px;
+            width: 1500px;
+        }
+        .a{
+            height: 100px;
+            width: 100px;
+            border: 2px solid black;
+        }
+        .b{
+            height: 200px;
+            width: 200px;
+            border: 2px solid black;
+            color: none;
+        }
+        @media screen and (max-width:400px){  /*screen is used to apply for the display screen "and" is used to perform the task when the condition is satisfied*/
+            body{
+                background-color: red;
+            }
+            .a{
+                background-color: white;
+                text-align: center;
+            }
+        }
+        /*there are so many such as print screen all*/
+        @media screen , (min-width:200px), (max-width:500px){       /*, operator is used to apply when one of the bothcondition was satisfied*/
+            .b{
+                background-color: yellow;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="a">HI</div>
+    <div class="b"></div>
+</body>
+</html>

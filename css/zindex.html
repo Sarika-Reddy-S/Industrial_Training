@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .a{
+            height: 200px;
+            width: 100px;
+            background-color: red;
+            position: relative;
+            z-index: 3; /*z index is used to reset the position of the div*/
+            top: 30px;
+            left: 20px;
+        }
+        .b{
+            height: 200px;
+            width: 100px;
+            background-color: black;
+            position: relative;
+            z-index: 2;
+            top: -150px;
+            left: 30px;
+        }
+        .c{
+            height: 200px;
+            width: 100px;
+            background-color: yellow;
+            position: relative;
+            top: -340px;
+            left: 40px;
+        }
+    </style>
+</head>
+<body>
+    <h1><center>Z- Index</center></h1><hr>
+    <div class="a"></div>
+    <div class="b"></div>
+    <div class="c"></div>
+</body>
+</html>

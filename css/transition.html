@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .a{
+            height: 200px;
+            width: 200px;
+            background-color: yellow;
+            transition-delay: 2s;
+            margin: 20px;
+            float: left;
+        }
+        #a:hover{
+            transition-duration: 5s;
+            background-color: maroon;
+            transform: rotate(50deg);
+        }
+        .b{
+            height: 200px;
+            width: 200px;
+            margin: 20px;
+            float: left;
+            background-color: red;
+            transition: all 2s ease-in-out 4s;
+        }
+        #b:hover{
+            transition-duration: 5s;
+            background-color: orange;
+            transform: rotate(50deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="a" id="a"></div>
+    <div class="b" id="b"></div>
+</body>
+</html>
