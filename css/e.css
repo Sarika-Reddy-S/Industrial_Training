@@ -8,7 +8,7 @@ body{
     padding: 5px;
 }
 .a{
-    height: 20px;
+    height: 40px;
     width: auto;
     padding: 10px;
     padding-left: 20%;
@@ -96,7 +96,7 @@ button[type='Message']{
     float: right;
 } */
 .h{
-    height: 300px;
+    height: 280px;
     width: 810px;
     background-color: white;
     border: 2px solid gray;

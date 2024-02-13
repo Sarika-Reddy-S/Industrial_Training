@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objects in JS</title>
+</head>
+<body>
+    <h1>Objects in JS</h1><hr>
+    <script>
+        var student={
+            name:'sarika',
+            id:25,
+            college:'Aditya'
+        }
+        console.log(student)
+        console.log(student.id)//dot notation
+        console.log(student['name'])//array notation
+        student.name='reddy'
+        console.log(student.name)
+        student.age=18
+        console.log(student)
+        console.log(student['age'])
+        delete student.age
+        console.log(student)
+        console.log('age' in student)
+        console.log('name' in student)
+    </script>
+</body>
+</html>

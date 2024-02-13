@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //var   you can re-assign re- declare the varables and it can be used globally
+        var name="ssr"
+        console.log(name);
+        name="sr"
+        console.log(name);
+        var name="reddy"
+        console.log(name);
+
+        //let   you can re-assign but not re-declare in is used locally
+        let pin = 21249
+        console.log(pin);
+        pin= 2222
+        console.log(pin);
+        // let pin = 336363
+        // console.log(pin);
+
+        //con you cant re-assign or re-declare used locally 
+        const branch = "ccn"
+        console.log(branch);
+        // branch="cme"
+        // console.log(branch);
+
+        //scope of the var
+        {
+            var age = 52
+            console.log(age);
+        }
+        console.log(age);
+
+        //scope of const
+        {
+            const roll = 25
+            console.log(roll);
+        }
+        //console.log(roll);  //error due to local scope
+
+        //scope of let
+        {
+            let rol = 55
+            console.log(rol);
+        }
+        //console.log(rol);  //error due to local scope
+    </script>
+</body>
+</html>

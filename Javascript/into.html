@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="alert('hello world!')">click </button><br>  <br> <!-- inline  -->
+    <button onclick="myfun()">click me</button>  <br> <br>               <!-- internal  -->
+    <button onclick="my()">click here</button>                        <!-- external  -->
+    <script>
+        function myfun(){
+            alert('this is JS world')
+        }
+    </script>
+</body>
+</html>
+<script src="ext.js"></script>
