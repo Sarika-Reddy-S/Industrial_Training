@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="2px">
+        <tr>
+            <th>Course Name</th>
+            <th>Course Number</th>
+            <th>Course Fees</th>
+            <th>Place</th>
+        </tr>
+        <tbody id="a"></tbody>
+    </table>
+        <script>
+            const bdy=document.body;
+            var d=document.getElementById("a");
+            a=[
+                {
+                    n:"Html",
+                    m:23423,
+                    f:235,
+                    p:"dwp"
+                },
+                {
+                    n:"CSS",
+                    m:23423,
+                    f:235,
+                    p:"dwp"
+                },
+                {
+                    n:"CSS",
+                    m:23423,
+                    f:235,
+                    p:"dwp"
+                },
+                {
+                    n:"Javascript",
+                    m:23423,
+                    f:235,
+                    p:"dwp"
+                },
+                {
+                    n:"BootStrap",
+                    m:23423,
+                    f:235,
+                    p:"dwp"
+                }
+            ]
+
+         for(let i=0;i<a.length;i++)
+         { 
+            var row=document.createElement("tr");
+            d.appendChild(row);
+            row.setAttribute("class","ssr");
+            // var value=document.getElementsByClassName("ssr");
+            // console.log(value);
+
+            var col=document.createElement("td");
+            row.appendChild(col);
+            col.setAttribute("class","val1");
+            var c=document.getElementsByClassName("val1");
+            console.log(c[i]);
+            c[i].innerHTML=a[i].n;
+
+            var col=document.createElement("td");
+            row.appendChild(col);
+            col.setAttribute("class","val2");
+            var c=document.getElementsByClassName("val2");
+            c[i].innerHTML=a[i].m;
+
+            var col=document.createElement("td");
+            row.appendChild(col);
+            col.setAttribute("class","val3");
+            var c=document.getElementsByClassName("val3");
+            c[i].innerHTML=a[i].f;
+            
+            var col=document.createElement("td");
+            row.appendChild(col);
+            col.setAttribute("class","val4");
+            var c=document.getElementsByClassName("val4");
+            c[i].innerHTML=a[i].p;
+         }
+        </script>
+    </table>
+</body>
+</html>

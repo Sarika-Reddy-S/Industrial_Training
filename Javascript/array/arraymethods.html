@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Array methods</title>
+</head>
+<body>
+    <script>
+        let fruits=['apple','banana','orange','grape','mango']
+        console.log(fruits)
+        console.log(typeof(fruits))
+
+        //push-added to the last
+        fruits.push('butterfly')
+        console.log(fruits)
+
+        //pop delete the last element
+        fruits.pop()
+        console.log(fruits)
+
+        //shift is used for removing the element in the first position
+        fruits.shift()
+        console.log(fruits)
+
+        //unshift is used to add element in the first position
+        fruits.unshift('dates')
+        console.log(fruits)
+
+        //concat is used to add 2 or more arrays
+        let animals=['monkey','dog','cat','elephant']
+        let concating=fruits.concat(animals)
+        console.log(concating)
+
+        //slice used to slice an sction of a perticular array
+        let sli=concating.slice(2,5)
+        console.log(sli)
+
+        //splice is used to remove and add elements with a specified index
+        fruits.splice(2,2,'donkey','lion')
+        console.log(fruits)
+
+        //indexof
+        let indexx=fruits.indexOf('donkey')
+        console.log(indexx)
+
+        //sort
+        console.log(concating)
+        concating.sort()
+        console.log(concating)
+    </script>
+</body>
+</html>

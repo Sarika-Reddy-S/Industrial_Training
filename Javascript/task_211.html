@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task</title>
+</head>
+<body>
+    <p>Count:<span id="count">0</span></p>
+    <button id="btn1">Inc</button>
+    <button id="btn2">Dec</button>
+    <script>
+        const b1=document.getElementById("btn1")
+        b1.addEventListener("click",myfunc1)
+
+        const b2=document.getElementById("btn2")
+        b2.addEventListener("click",myfunc2)
+
+        function myfunc1(){
+            var b=document.getElementById("count").innerText;
+            var c=parseInt(b);
+            c=c+1;
+            document.getElementById("count").innerText=c;
+        }
+        function myfunc2(){
+            var b=document.getElementById("count").innerText;
+            var c=parseInt(b);
+            c=c-1;
+            document.getElementById("count").innerText=c;
+        }
+    </script>
+</body>
+</html>

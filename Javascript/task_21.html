@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        td{
+        width:400px;
+        text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table border="">
+        <tr>
+            <td class="a"></td>
+            <td class="a"></td>
+            <td class="a"></td>
+        </tr>
+        <tr>
+            <td class="a"></td>
+            <td class="a"></td>
+            <td class="a"></td>
+        </tr>
+        <tr>
+            <td class="a"></td>
+            <td class="a"></td>
+            <td class="a"></td>
+        </tr>
+    </table>
+    <script>
+        let arr=["siva","rani","siva","raju","raju","raju","ravi","ravi","ravi"];
+        let color=["yellow","orange","green","pink","blue","red","brown","grey","greenyellow"]
+        const get=document.getElementsByClassName("a")
+        for(let i=0;i<get.length;i++){
+            get[i].innerText=arr[i]
+            get[i].style.backgroundColor=color[i]
+        }
+    </script>
+</body>
+</html>

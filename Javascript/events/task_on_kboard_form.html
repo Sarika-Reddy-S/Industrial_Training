@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label>Enter value</label>
+        <input type="text" id="color_id" onkeyup="getColor()">
+        <span id="sp_id"></span>
+    </form>
+    <script>
+        function getColor(){
+            let getColor=document.getElementById('color_id').value;
+            document.getElementById('sp_id').innerText=getColor;
+            document.body.style.backgroundColor=getColor;
+        }
+    </script>
+</body>
+</html>

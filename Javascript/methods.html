@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>This is Aditya University</p>
+    <p>This is Aditya University</p>
+
+    <span>Hello busy people</span><br>
+    <span>Hello busy people</span><br>
+
+    <span class="j">Hello busy people</span>
+
+    <p id="o">This is Aditya University</p>
+    <p class="y">This is Aditya University</p>
+
+    <h4 id="head">Hiiiii!!</h6>
+    <h4 id="head">Hiiiii!!</h6>
+    <h4 id="head">Hiiiii!!</h6>
+
+
+
+    <a id="anc">Click here</a>  <!-- mathimarupu ekkuva ayyi anchor tag lo href evvakunda js lo set attribute use chese chesam -->
+
+    <script>
+        //query selector("#id,.class,tag")
+        //single decleration
+        document.querySelector("p").style.backgroundColor="red" //it is only applicable to one value only
+        document.querySelector(".y").style.color="green";
+        document.querySelector("#o").style.color="pink";
+
+        const ssr=document.querySelector("span");
+        ssr.style.backgroundColor="yellow";
+        console.log(ssr)
+
+        //query selectorAll
+        //it is applied to all
+        let heads=document.querySelectorAll("#head,.j");
+        // heads.style.backgroundColor="green";
+        console.log(heads)
+        heads[0].style.backgroundColor="green";
+        heads[1].style.backgroundColor="green";
+
+        //task
+        let task=document.querySelectorAll("#head,span");
+        console.log(task)
+        //by using for loop we can apply to all the parameters at a time so all anna kaabatti ee class id evi kuda apply avuthunayii
+        for(let i=0; i<task.length; i++)
+        {
+            task[i].style.backgroundColor="black"
+            task[i].style.color="white";
+        }
+
+        //setattribute
+        let MyAnc=document.getElementById('anc')
+        MyAnc.setAttribute("href","https://youtu.be/Y63-PiaPsm0?si=EJFt9GI1HAsKYCxm");
+        MyAnc.setAttribute("target","_blank");
+        console.log(MyAnc)
+
+        //create element
+        //creating button
+        const NewBtn=document.createElement("button");
+        NewBtn.innerText="click me"
+
+        //creating a div
+        const NewDiv = document.createElement("div");
+        NewDiv.innerHTML="<h1>This is a new division</h1>"
+        NewDiv.style.cssText=`height: 200px;
+                                width: 200px;
+                                color: blueviolet; 
+                                padding: 20px;
+                                background-color: lightblue;
+                                border-radius: 50px;
+                                border: 2px solid black;
+                                margin-top: 10px;`
+        
+        //append element
+        const bdy=document.body
+        const MyBtn=document.body
+        // console.log(bdy)
+        bdy.appendChild(NewDiv)
+        MyBtn.appendChild(NewBtn)
+
+        //event Listner
+        const butmy=document.getElementById('btn_id')
+        console.log(butmy)
+        butmy.addEventListener("mouseover", myfun1)
+        butmy.addEventListener("mouseout", myfun2)
+        butmy.addEventListener("click", myfun3)
+        function myfun1(){
+            MyBtn.style.backgroundColor="red"
+        }
+        function myfun2(){
+            MyBtn.style.backgroundColor="blue"
+        }
+        function myfun3(){
+            MyBtn.style.backgroundColor="yellow"
+        }
+
+
+        //creating button
+        const creat=document.createElement("button")
+        const get1=document.body
+        get1.append(creat)
+        creat.innerText="Click me"
+        creat.addEventListener("mouseover",function f1(){
+             get.style.backgroundColor="red"
+        })
+        creat.addEventListener("mouseleave",function f2(){
+             creat.style.backgroundColor="blue"
+        })
+        creat.addEventListener("click",function f3(){
+            const id=new Date();
+            document.write(id)
+            
+        })
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="">Click me</a>
+    <p id="a_id">Hello!!</p>
+    <p class="cls">hi i am from</p>
+    <p class="cls">CCN</p>
+    <span>I am Reddy</span>
+    <span>I am Reddy</span>
+    <span>I am Reddy</span><br>
+    <p>Original College</p>
+    <ul>
+        <li id="a">AEC</li>
+        <li id="b">ACET</li>
+        <li id="c">ACOE</li>
+    </ul>
+    <h3>changed colleges</h3>
+    <ul>
+        <li id="d"></li>
+        <li id="e"></li>
+        <li id="f"></li>
+    </ul>
+
+    <script>
+        //entire docment structure
+        console.log(document.body)
+        //by using id
+        const Byid=document.getElementById('a_id'); //id unique so element
+        Byid.style.color='red'
+        Byid.style.fontSize='60px'
+        console.log(Byid)   //to check error we use console.log
+
+        //by using cls
+        const ByCls=document.getElementsByClassName('cls'); //cls not unique so multiple will be there so elements
+        ByCls[0].style.color='hotpink';
+        console.log(ByCls)
+
+        //by using tag name
+        const ByTag=document.getElementsByTagName('span');
+        ByTag[0].style.color='green'
+        console.log(ByTag)
+
+        //task
+        const text1 = document.getElementById("a").innerText;
+        document.getElementById("d").innerHTML = "<b>Aditya Engineering college</b>";
+        d.style.backgroundColor='grey'
+        // console.log(text1)
+
+        const text2 = document.getElementById("b").innerText;
+        document.getElementById("e").innerHTML = "<b>Aditya College of Engineering and Technology</b>";
+        e.style.border='4px solid red'
+        // console.log(text2)
+
+        const text3 = document.getElementById("c").innerText;
+        document.getElementById("f").innerHTML = "<b>Aditya College of Engineering</b>";    //inner html changes the text only <b> ee tag property ni change cheyyadhu
+        f.style.fontFamily='Georgia';
+        // console.log(text3)                                                                  //kani inntertext matram ah tags ni kuda print chesthadhi
+    </script>
+</body>
+</html>

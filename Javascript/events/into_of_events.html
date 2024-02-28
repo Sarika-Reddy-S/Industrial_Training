@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="sample()">Click me</button><br><br>
+    <button onmouseout="sample1()">Click me</button><br>
+    <!-- we can also use onmouseover and many more for this -->
+    <b id="sp_id"></b>
+    <!-- first way (Inline) -->
+    <script>
+        function sample(){
+            document.body.style.backgroundColor="lavender";
+            document.getElementById('sp_id').innerText="This is a onclick operation using inline"
+        }
+        function sample1(){
+            document.body.style.backgroundColor="pink";
+            document.getElementById('sp_id').innerText="This is a onclick operation using inline"
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function StrMethods(str_name){
+            document.write('<b>'+str_name+'</b><br>')
+        }
+        let str= 'drive ready batch';
+
+        //original value
+        StrMethods('Original String : '+str);
+
+        // to find out the length of string
+        StrMethods('Length of the string : '+str.length);
+
+        //to find the value of particular position using index
+        StrMethods('Char At :'+str.charAt(2));
+        
+        //to find the vale of last position
+        strMethods('index at the specific character is: '+str1.indexOf('c')) //indexOf method is used
+
+        //to find the last index of a specified element if the element is repeated in the string
+        strMethods('the last index of a is' +str2.lastIndexOf("a"))
+
+
+        let str1 = 'Drive READY'
+        //to convert into lowercase
+        StrMethods('Lower case of string :'+str1.toLowerCase);
+        StrMethods('Lower case of string :'+str1.toUpperCase);
+        
+        //to add multiple strings
+        let str2= 'mern batch';
+        let str3= 'new batch'; 
+        StrMethods('concatenation of string :' +str.concat(str2));
+        StrMethods('concatenation of string :' +str.concat(str2.str3));
+
+        //removing the spaces
+        StrMethods('Trim of string :' +str.trim());
+
+        //conveting string into an array
+        console.log(str.split(""));
+        let newstr = 'uday&kiran&kumar';
+        console.log(newstr.split("&"));
+
+        //return boolean value
+        StrMethods('start with of string :'+str.startsWith('d'));
+        StrMethods('start with of string :'+str.endWith('d'));
+
+        //slice method
+        strMethods('slice of string :'+str.slice(6,10));
+        strMethods('slice of string :'+str.slice(-2));
+        strMethods('slice of string :'+str.slice(-5));
+        strMethods('slice of string :'+str.slice(-4,-2));
+
+        //substring method(it only take positive index only) 
+        strMethods('substring of string.. :'+str.substring(1,6));
+
+        //include menthod
+        strMethods('includes of string :'+str.includes("batch"))
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn_id">Click here</button>
+    <!-- 2nd way (by using event properties in js) -->
+    <script>
+        let btn=document.getElementById('btn_id');
+        //1. Normal Function calling
+        btn.onclick = change;
+        function change(){
+            document.body.style.backgroundColor='lightblue';
+        }
+
+        //2. Anonimous function
+        btn.onmouseout=function(){
+            document.body.style.backgroundColor='red';
+        }
+    </script>
+</body>
+</html>

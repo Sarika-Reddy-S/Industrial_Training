@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Functions in Javascript</h1>
+    <button type="button" onclick="funname()">click</button><br>
+    <input type="text" id="inp">
+    <button onclick="getname()">click</button><br>
+    <span id="sp_id"></span>
+    <script type="text/javascript">
+        //function with no parameters
+        //funname()
+        function funname(){
+            //code
+            //alert("executed")
+            document.write("hii")
+        }
+        //function with one parameter
+       // getname('joy')
+        function getname(name){
+            //alert(name)
+            let name1 =document.getElementById("inp").value
+            document.getElementById('sp_id').innerText=name1;
+            alert(name1)
+        }
+    </script>
+</body>
+</html>

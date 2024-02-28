@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="b">Click Here</button>
+    <script>
+        let btn=document.getElementById("b");
+        //normal function calling
+        btn.addEventListener("click",sample);
+        function sample(){
+            document.body.style.backgroundColor="pink"
+        }
+        //Anonymous function calling
+        btn.addEventListener("dblclick",function(){
+            document.body.style.backgroundColor="orange"
+        })
+        // btn.addEventListener("mouseover",sample)
+    </script>
+</body>
+</html>
