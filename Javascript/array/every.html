@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let marks=[90,35,40,10,20,50,60,90,20];
+        //marks.some(funciton(ele,i,index))
+        let result=marks.every((score,i)=>{
+            console.log(score);
+            return score>=35;
+        })
+        console.log(result)
+
+        //anonymous function
+        let anonymous=marks.every(function(ele,i){
+            console.log(ele)
+            return ele>10;
+        })
+        console.log(anonymous)
+    </script>
+</body>
+</html>

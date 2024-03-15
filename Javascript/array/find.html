@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+        let courses=['html','css','bootstrap','js'];
+        let getCourse=courses.find((course,index)=>{
+            //return course.startsWith('b');
+            return course.endsWith('s');
+            //loop will be terinimated once it find so u cant fin the 2nd value
+        })
+        console.log(getCourse);
+
+        //anonymous function
+        let thub=['pega','cloud','react','amazon','web services']
+        let offer=thub.find(function(core,index){
+            return core.startsWith('a');
+        })
+        console.log(offer)
+
+        //named function
+        let aditya=['btech','diploma','pharmcy','degree']
+        let clg=aditya.find(tofind)
+        function tofind(study,index){
+            return study.startsWith('p')
+        }
+        console.log(clg)
+
+        //normal function
+        // let c=a.find(element);
+        // function element(ele,i)
+        // {
+        //     return ele.startsWith('j');
+        // }
+        // console.log(c)
+    </script>
+</body>
+</html>

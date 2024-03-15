@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let nums = [7,10,80];
+        //nums.recude(function(acc,ele,i,arr))
+        let sum=nums.reduce(function(acc,ele){
+            return acc + ele
+        },0);
+        //first iteraation acc=0,ele=7 =>0+7=7
+        //second iteration acc=7,ele=10 =>7+10=17
+        //third iteration acc=17,ele=80 =>17+80=97
+        console.log(nums)
+        console.log(sum)
+
+        //max number check
+        let mat=nums.reduce(function(acc,ele,i,arr){
+            if(acc>ele){
+                return acc
+            }else{
+                return ele
+            }
+        },nums[0]);
+        console.log(mat)
+        //first iteration acc=7,ele=7 =>7>7 = 7
+        //second iteration acc=7,ele=10 =>7>10 =10
+        //third iteration acc=10,ele=80 => 80>10=80
+
+    </script>
+</body>
+</html>

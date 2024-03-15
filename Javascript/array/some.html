@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let trainees=['kuramajoicy@gmail.com','rama@gmail.com','meena@gmail.com','ssr@gmail.com']
+        let emailcheck= trainees.some((email,i,arr)=>{
+            return email== 'meena@gmail.com';
+        })
+        console.log(emailcheck)
+
+        //anonymous
+        let check=trainees.some(function(email,i,arr){
+            return email=='sarika@gmail.com';
+        })
+        console.log(check)
+
+        //named
+        let email_che=trainees.some(func)
+        function func(email,i,arr){
+            return email=='abc@gmail.com'
+        }
+        console.log(email_che)   
+
+    </script>
+</body>
+</html>

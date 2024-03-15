@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //forEach menthod doesnt creat new arrays like the map function it is used to update the cureent array wiith the given values
+        let sal=[4000,5000,6000,7000]
+        console.log(sal);
+        //arrow function
+        sal.forEach((amount,index)=>{
+            var hike=parseInt(amount/12);
+            console.log(hike)
+            sal[index]=amount+hike;
+        });
+        console.log(sal)
+
+        //anonymous function
+        let package= [9000,4000,6000,10000]
+        console.log(package)
+        let salary=package.forEach(function(amount,index){
+            let inc=parseInt(amount/10);
+            console.log(inc);
+            package[index]=amount+inc;
+        })
+        console.log(package)
+    </script>
+</body>
+</html>

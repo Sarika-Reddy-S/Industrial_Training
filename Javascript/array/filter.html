@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //arrow function
+        let num=[8,9,9,10,11,12,14,15,16,17]
+        let evennum=num.filter((ele,i)=>{
+            return ele%2 == 0
+        })
+        console.log(evennum)
+
+        let oddnum=num.filter((ele,i)=>{
+            return ele%2 != 0
+        })
+        console.log(oddnum)
+
+        //annonymous function
+        let a=num.filter(function(ele,i){
+                return ele%2==0
+        })
+        let b=num.filter(function(ele,i){
+                return ele%2!=0
+        })
+        console.log(a)
+        console.log(b)
+    </script>
+</body>
+</html>

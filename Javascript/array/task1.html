@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const arr=[
+            {
+                RollNo:255,
+                College:"AEC"
+            },
+            {
+                RollNo:404,
+                College:"AEC"
+            },
+            {
+                RollNo:249,
+                College:"ACET"
+            },
+            {
+                RollNo:250,
+                College:"ACET"
+            }]
+        let clg=arr.filter(function(ele,index,arr){
+            return arr[index].College=="ACET"
+        })
+        console.log(clg)
+    </script>
+</body>
+</html>

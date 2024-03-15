@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Print Numbers in Table</title>
+</head>
+<body>
+    <table id="numberTable" border="1">
+        <!-- Table body will be filled by JavaScript -->
+    </table>
+    <script>
+        // Define a function to generate the table
+        function generateTable(rows, cols) {
+            var table = document.getElementById("numberTable");
+            // Clear existing table content
+            table.innerHTML = '';
+            // Generate table rows and columns
+            for (var i = 0; i < rows; i++) {
+                var row = table.insertRow();
+                for (var j = 0; j < cols; j++) {
+                    var cell = row.insertCell();
+                    cell.appendChild(document.createTextNode(i * cols + j + 1));
+                }
+            }
+        }
+        // Call the function with desired rows and columns
+        generateTable(4, 10); // Example: 5 rows and 5 columns
+    </script>
+</body>
+</html>

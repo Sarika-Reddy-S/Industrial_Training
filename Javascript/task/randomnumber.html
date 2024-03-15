@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .a{
+            height: 300px;
+            width: 25%;
+            padding: 50px;
+            border: 5px solid black;
+            text-align: center;
+        }
+        h1{
+            color: red;
+        }
+        h4{
+            color: blue;
+        }
+        input{
+            width: 70%;
+            height: 25px;
+            text-align: right;
+            float: left;
+        }
+        #find{
+            height: 30px;
+            background-color: lightblue;
+            width: 25%;
+            float: left;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="a">
+        <h1>Guess the Number</h1>
+        <h4>Guess the number between 0 - 10</h4>
+        <input type="text" placeholder="Guess the number" id="guess" autofocus>
+        <button onclick="find()" id="find">Try your luck</button><br>
+        <p id="oops"></p>
+        <p id="abc"></p>
+        <p > <span id='fool'> </span></p>
+    </div>
+    <script>
+        function find(){
+            let ip=document.getElementById('guess').value;
+            document.getElementById('abc').innerText="The numbers you have Entered"+ip;
+            let game=Math.floor(Math.random()*10);
+            document.getElementById('fool').innerText="The number I guessed"+game;
+            if(ip==game){
+                document.getElementById('oops').innerText="You found it";
+            }
+            else{
+                document.getElementById('oops').innerText="Sorry try again";
+            }
+            
+        }
+    </script>
+</body>
+</html>

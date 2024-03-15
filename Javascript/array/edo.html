@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label>enter a value</label>
+    <input type="text" id="hi">
+    <p id="res"></p>
+    <script>
+        let arr=["hi","hello"]
+        let data=document.getElementById('hi').value;
+        let result=arr.find(arr=> data ===arr)
+        if(result!=undefined){
+            console.log("yeah")
+        }
+        else{
+            console.log("hello")
+        }
+    </script>
+</body>
+</html>

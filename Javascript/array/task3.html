@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task3</title>
+</head>
+<body>
+    <label>Enter Name:</label>
+    <input type="text" id="input">
+    <button onclick="findName()">Find Name</button>
+    <p id="result"></p>
+    <script type="text/javascript">
+        function findName() {
+            const names=["ashii@gmail.com","toddy@gmail.com","pondy@gmail.com"];
+            const input = document.getElementById("input").value;
+            const find = names.find(name => name === input);
+            if (find !== undefined) {
+                document.getElementById("result").innerText = "already exist!";
+            }else{
+                document.getElementById("result").innerText = "proceed";
+            }
+        }
+    </script>
+</body>
+</html>

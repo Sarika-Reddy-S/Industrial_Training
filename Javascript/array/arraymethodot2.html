@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>map function</title>
+</head>
+<body>
+    <script>
+    //anonymous funvtion
+    let birthyear =[1998,1999,2002,2005,2009,2015,2019 ];
+    let ages= birthyear.map(function(ele,index,arr){
+      let age =2024-ele;
+      return "current age is"+age;
+    })
+    //named function 
+    //let ages=birthyear.map(findAge)
+
+    function findAge(year,index,arr){
+        console.log("current age is" +year);
+        console.log("element index position is "+index);
+        console.log("current array is "+arr)
+        let age = 2024-year;
+        return "current age is "+age;
+    }
+    console.table(birthyear);
+    console.table(ages);
+
+    </script>
+</body>
+</html>

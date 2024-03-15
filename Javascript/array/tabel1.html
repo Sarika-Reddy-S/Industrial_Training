@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1" id="b">
+        <tr>
+            <th>pin</th>
+            <th>college</th>
+        </tr>
+    </table>
+    <script>
+        let a=[{
+                pin:21249,
+                col:"AECT"
+            },
+            {
+                pin: 21255,
+                col:"ACE"
+            },
+            {
+                pin:21404,
+                col:"AEOC"
+            }
+        ]
+        let res=a.filter((element,index,arr)=>{
+            return arr[index]
+        })
+        console.log(res);
+        let z=document.getElementById('b')
+        for(i=0;i<=res.length-1;i++){
+            let newrow= z.insertRow();
+            let col1=newrow.insertCell(0);
+            let col2=newrow.insertCell(1);
+            col1.innerHTML=res[i].pin;
+            col2.innerHTML=res[i].col;
+        }
+    </script>
+</body>
+</html>
